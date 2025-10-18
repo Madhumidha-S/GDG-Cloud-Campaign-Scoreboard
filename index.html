@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GDG Cloud Campaign Scoreboard</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <h1>GDG Cloud Campaign Scoreboard</h1>
+        <p>SASTRA Deemed University, Thanjavur</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="controls">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search by name or email..."
+        />
+        <select id="filterSelect">
+          <option value="all">All Participants</option>
+          <option value="completed">Completed</option>
+        </select>
+      </div>
+
+      <div class="table-container">
+        <table id="scoreboardTable">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Modules Completed</th>
+              <th>Completed StudyJams</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="5">Loading...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <footer>
+      <h2>Contact Us</h2>
+      <div class="social-links">
+        <a
+          href="mailto:gdgoncampussastra@gmail.com"
+          target="_blank"
+          title="Gmail"
+        >
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/company/gdg-sastra/"
+          target="_blank"
+          title="LinkedIn"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/gdg_sastra"
+          target="_blank"
+          title="Instagram"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="js/scoreboard.js"></script>
+  </body>
+</html>

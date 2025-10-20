@@ -103,7 +103,7 @@ tr:hover {
 .rank-2,
 .rank-3 {
   font-weight: 600;
-  color: var(--top3-color);
+  color: rgb(225, 15, 15);
 }
 
 footer {

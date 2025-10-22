@@ -49,7 +49,7 @@ function renderTable(data) {
     const completed = score >= 20 ? "Yes" : "No";
 
     const tr = document.createElement("tr");
-    if (rank <= 3) tr.classList.add(`rank-${rank}`);
+    if (rank <= 5) tr.classList.add(`rank-${rank}`);
 
     tr.innerHTML = `
     <td>${rank}</td>
